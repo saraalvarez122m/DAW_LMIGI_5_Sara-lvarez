@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Treball de XML</title>
+</head>
+<body>
+    <h2>Llista d'empleats</h2>
+    <ul>
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1002</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Diane, Murphy</span></li>
+                <li><b>Correu: </b>dmurphy@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>NULL</li>
+                <li><b>Posició: </b>President</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+1 650 219 4782</li>
+                        <li><b>Direcció: </b>100 Market Street</li>
+                        <li><b>Ciutat: </b>San Francisco</li>
+                        <li><b>País: </b>USA</li>
+                        <li><b>CP: </b>94080</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1056</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Mary, Patterson</span></li>
+                <li><b>Correu: </b>mpatterso@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1002</li>
+                <li><b>Posició: </b>VP Sales</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+1 650 219 4782</li>
+                        <li><b>Direcció: </b>100 Market Street</li>
+                        <li><b>Ciutat: </b>San Francisco</li>
+                        <li><b>País: </b>USA</li>
+                        <li><b>CP: </b>94080</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1076</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Jeff, Firrelli</span></li>
+                <li><b>Correu: </b>jfirrelli@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1002</li>
+                <li><b>Posició: </b>VP Marketing</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+1 650 219 4782</li>
+                        <li><b>Direcció: </b>100 Market Street</li>
+                        <li><b>Ciutat: </b>San Francisco</li>
+                        <li><b>País: </b>USA</li>
+                        <li><b>CP: </b>94080</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1143</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Anthony, Bow</span></li>
+                <li><b>Correu: </b>abow@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1056</li>
+                <li><b>Posició: </b>Sales Manager (NA)</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+1 650 219 4782</li>
+                        <li><b>Direcció: </b>100 Market Street</li>
+                        <li><b>Ciutat: </b>San Francisco</li>
+                        <li><b>País: </b>USA</li>
+                        <li><b>CP: </b>94080</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1165</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Leslie, Jennings</span></li>
+                <li><b>Correu: </b>ljennings@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1143</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+1 650 219 4782</li>
+                        <li><b>Direcció: </b>100 Market Street</li>
+                        <li><b>Ciutat: </b>San Francisco</li>
+                        <li><b>País: </b>USA</li>
+                        <li><b>CP: </b>94080</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1166</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Leslie, Thompson</span></li>
+                <li><b>Correu: </b>lthompson@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1143</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+1 650 219 4782</li>
+                        <li><b>Direcció: </b>100 Market Street</li>
+                        <li><b>Ciutat: </b>San Francisco</li>
+                        <li><b>País: </b>USA</li>
+                        <li><b>CP: </b>94080</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1188</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Julie, Firrelli</span></li>
+                <li><b>Correu: </b>jfirrelli@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1143</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+1 215 837 0825</li>
+                        <li><b>Direcció: </b>1550 Court Place</li>
+                        <li><b>Ciutat: </b>Boston</li>
+                        <li><b>País: </b>USA</li>
+                        <li><b>CP: </b>02107</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1216</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Steve, Patterson</span></li>
+                <li><b>Correu: </b>spatterson@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1143</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+1 215 837 0825</li>
+                        <li><b>Direcció: </b>1550 Court Place</li>
+                        <li><b>Ciutat: </b>Boston</li>
+                        <li><b>País: </b>USA</li>
+                        <li><b>CP: </b>02107</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1286</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Foon Yue, Tseng</span></li>
+                <li><b>Correu: </b>ftseng@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1143</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+1 212 555 3000</li>
+                        <li><b>Direcció: </b>523 East 53rd Street</li>
+                        <li><b>Ciutat: </b>NYC</li>
+                        <li><b>País: </b>USA</li>
+                        <li><b>CP: </b>10022</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1323</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">George, Vanauf</span></li>
+                <li><b>Correu: </b>gvanauf@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1143</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+1 212 555 3000</li>
+                        <li><b>Direcció: </b>523 East 53rd Street</li>
+                        <li><b>Ciutat: </b>NYC</li>
+                        <li><b>País: </b>USA</li>
+                        <li><b>CP: </b>10022</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1102</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Gerard, Bondur</span></li>
+                <li><b>Correu: </b>gbondur@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1056</li>
+                <li><b>Posició: </b>Sale Manager (EMEA)</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+33 14 723 4404</li>
+                        <li><b>Direcció: </b>43 Rue Jouffroy D'abbans</li>
+                        <li><b>Ciutat: </b>Paris</li>
+                        <li><b>País: </b>France</li>
+                        <li><b>CP: </b>75017</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1337</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Loui, Bondur</span></li>
+                <li><b>Correu: </b>lbondur@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1102</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+33 14 723 4404</li>
+                        <li><b>Direcció: </b>43 Rue Jouffroy D'abbans</li>
+                        <li><b>Ciutat: </b>Paris</li>
+                        <li><b>País: </b>France</li>
+                        <li><b>CP: </b>75017</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1370</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Gerard, Hernandez</span></li>
+                <li><b>Correu: </b>ghernande@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1102</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+33 14 723 4404</li>
+                        <li><b>Direcció: </b>43 Rue Jouffroy D'abbans</li>
+                        <li><b>Ciutat: </b>Paris</li>
+                        <li><b>País: </b>France</li>
+                        <li><b>CP: </b>75017</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1401</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Pamela, Castillo</span></li>
+                <li><b>Correu: </b>pcastillo@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1102</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+33 14 723 4404</li>
+                        <li><b>Direcció: </b>43 Rue Jouffroy D'abbans</li>
+                        <li><b>Ciutat: </b>Paris</li>
+                        <li><b>País: </b>France</li>
+                        <li><b>CP: </b>75017</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1702</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Martin, Gerard</span></li>
+                <li><b>Correu: </b>mgerard@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1102</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+33 14 723 4404</li>
+                        <li><b>Direcció: </b>43 Rue Jouffroy D'abbans</li>
+                        <li><b>Ciutat: </b>Paris</li>
+                        <li><b>País: </b>France</li>
+                        <li><b>CP: </b>75017</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1621</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Mami, Nishi</span></li>
+                <li><b>Correu: </b>mnishi@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1056</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+81 33 224 5000</li>
+                        <li><b>Direcció: </b>4-1 Kioicho</li>
+                        <li><b>Ciutat: </b>Tokyo</li>
+                        <li><b>País: </b>Japan</li>
+                        <li><b>CP: </b>102-8578</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1625</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Yoshimi, Kato</span></li>
+                <li><b>Correu: </b>ykato@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1621</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+81 33 224 5000</li>
+                        <li><b>Direcció: </b>4-1 Kioicho</li>
+                        <li><b>Ciutat: </b>Tokyo</li>
+                        <li><b>País: </b>Japan</li>
+                        <li><b>CP: </b>102-8578</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1088</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">William, Patterson</span></li>
+                <li><b>Correu: </b>wpatterson@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1056</li>
+                <li><b>Posició: </b>Sales Manager (APAC)</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+61 2 9264 2451</li>
+                        <li><b>Direcció: </b>5-11 Wentworth Avenue</li>
+                        <li><b>Ciutat: </b>Sydney</li>
+                        <li><b>País: </b>Australia</li>
+                        <li><b>CP: </b>NSW 2010</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1611</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Andy, Fixter</span></li>
+                <li><b>Correu: </b>afixter@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1088</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+61 2 9264 2451</li>
+                        <li><b>Direcció: </b>5-11 Wentworth Avenue</li>
+                        <li><b>Ciutat: </b>Sydney</li>
+                        <li><b>País: </b>Australia</li>
+                        <li><b>CP: </b>NSW 2010</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1612</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Peter, Marsh</span></li>
+                <li><b>Correu: </b>pmarsh@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1088</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+61 2 9264 2451</li>
+                        <li><b>Direcció: </b>5-11 Wentworth Avenue</li>
+                        <li><b>Ciutat: </b>Sydney</li>
+                        <li><b>País: </b>Australia</li>
+                        <li><b>CP: </b>NSW 2010</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1619</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Tom, King</span></li>
+                <li><b>Correu: </b>tking@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1088</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+61 2 9264 2451</li>
+                        <li><b>Direcció: </b>5-11 Wentworth Avenue</li>
+                        <li><b>Ciutat: </b>Sydney</li>
+                        <li><b>País: </b>Australia</li>
+                        <li><b>CP: </b>NSW 2010</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1501</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Larry, Bott</span></li>
+                <li><b>Correu: </b>lbott@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1102</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+44 20 7877 2041</li>
+                        <li><b>Direcció: </b>25 Old Broad Street</li>
+                        <li><b>Ciutat: </b>London</li>
+                        <li><b>País: </b>UK</li>
+                        <li><b>CP: </b>EC2N 1HN</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+
+        <li>
+            <h3 style="color: blue; font-size: 26px;">Empleat amb id 1504</h3>
+            <ul>
+                <li><b style="font-size: 16px;">Nom: </b><span style="font-size: 16px;">Barry, Jones</span></li>
+                <li><b>Correu: </b>bjones@classicmodelcars.com</li>
+                <li><b>Id del seu superior: </b>1102</li>
+                <li><b>Posició: </b>Sales Rep</li>
+                <li>
+                    <b>Dades de l'Oficina:</b>
+                    <ul style="color: red; font-style: italic;">
+                        <li><b>Telèfon: </b>+44 20 7877 2041</li>
+                        <li><b>Direcció: </b>25 Old Broad Street</li>
+                        <li><b>Ciutat: </b>London</li>
+                        <li><b>País: </b>UK</li>
+                        <li><b>CP: </b>EC2N 1HN</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+        </li>
+    </ul>
+</body>
+</html>
