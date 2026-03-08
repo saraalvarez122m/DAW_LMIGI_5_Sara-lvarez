@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+   <customer customerNumber="103">
+      <customerName>Atelier graphique</customerName>
+      <phone>40.32.2555</phone>
+      <contact>
+         <contactFirstName>Carine </contactFirstName>
+         <contactLastName>Schmitt</contactLastName>
+      </contact>
+      <adress>
+         <addressLine1>54, rue Royale</addressLine1>
+         <addressLine2/>
+         <city>Nantes</city>
+         <state/>
+         <postalCode>44000</postalCode>
+         <country>France</country>
+      </adress>
+      <salesRepEmployeeNumber>1370</salesRepEmployeeNumber>
+      <creditLimit>21000.00</creditLimit>
+   </customer>
+   <customer customerNumber="112">
+      <customerName>Signal Gift Stores</customerName>
+      <phone>7025551838</phone>
+      <contact>
+         <contactFirstName>Jean</contactFirstName>
+         <contactLastName>King</contactLastName>
+      </contact>
+      <adress>
+         <addressLine1>8489 Strong St.</addressLine1>
+         <addressLine2/>
+         <city>Las Vegas</city>
+         <state>NV</state>
+         <postalCode>83030</postalCode>
+         <country>USA</country>
+      </adress>
+      <salesRepEmployeeNumber>1166</salesRepEmployeeNumber>
+      <creditLimit>71800.00</creditLimit>
+   </customer>
+   <customer customerNumber="114">
+      <customerName>Australian Collectors, Co.</customerName>
+      <phone>03 9520 4555</phone>
+      <contact>
+         <contactFirstName>Peter</contactFirstName>
+         <contactLastName>Ferguson</contactLastName>
+      </contact>
+      <adress>
+         <addressLine1>636 St Kilda Road</addressLine1>
+         <addressLine2>Level 3</addressLine2>
+         <city>Melbourne</city>
+         <state>Victoria</state>
+         <postalCode>3004</postalCode>
+         <country>Australia</country>
+      </adress>
+      <salesRepEmployeeNumber>1611</salesRepEmployeeNumber>
+      <creditLimit>117300.00</creditLimit>
+   </customer>
+</customers>
